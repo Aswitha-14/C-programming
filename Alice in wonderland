@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,d,g;
+    scanf("%d",&a);
+    d=a%10;
+    g=a/10;
+    printf("Bird said:%d",a);
+    printf("\nAlice must go in path-%d",d+g);
+    return 0;
+}
