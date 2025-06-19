@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+float a;
+    scanf("%f",&a);
+    printf("%.5f",a);
+    printf("\n%.4f",a);
+    printf("\n%.3f",a);
+    printf("\n%.2f",a);
+    printf("\n%.1f",a);
+    printf("\n%d",(int)a);  
+    return 0;
+}
