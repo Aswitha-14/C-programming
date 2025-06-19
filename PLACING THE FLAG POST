@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+  int a,b,c;
+    scanf("%d\n%d\n%d",&a,&b,&c);
+    printf("x-coordinate:%d",a);
+    printf("\ny-coordinate:%d",b);
+    printf("\nLength:%d",c);
+    printf("\nCentre of the ground is at (%d,%d)",(a+(c/2)),(b+(c/2)));
+    return 0;
+}
