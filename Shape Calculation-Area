@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define PI 3.1415926359
+
+int main() {
+    int a,b,c,e,f;
+    float d,x;
+    scanf("%d\n%d\n%d\n%f\n%d\n%d",&a,&b,&c,&d,&e,&f);
+    printf("Area of Square=%d",a*a);
+    printf("\nArea of Rectangle=%d",b*c);
+    x=PI*d*d;
+    float Final=floor(x*100)/100;
+    printf("\nArea of Circle=%.2f",Final);
+    printf("\nArea of Triangle=%d",(e*f)/2);
+    return 0;
+}
+  
