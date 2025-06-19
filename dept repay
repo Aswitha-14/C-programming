@@ -1,0 +1,23 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int p,r,t;
+    float si,a,d,fs;
+    scanf("%d\n%d\n%d",&p,&r,&t);
+    si=(float)(p*r*t)/100;
+    a=(float)si+p;
+    d=(float)si*0.02;
+    fs=(float)a-d;
+    printf("%.2f",si);
+    printf("\n%.2f",a);
+    printf("\n%.2f",d);
+    printf("\n%.2f",fs);
+    
+    return 0;
+}
