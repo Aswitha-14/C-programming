@@ -1,0 +1,16 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main()
+{
+    int w,x,y;
+    scanf("%d\n%d\n%d",&w,&x,&y);
+    x=(w*x)-((w*y)+100);
+    printf("%d",x);
+    return 0;
+}
