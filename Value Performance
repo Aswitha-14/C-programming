@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+   int a;
+    float b;
+    scanf("%d",&a);
+    scanf("\n%f",&b);
+    printf("%d",a);
+    printf("\n%.2f",b);
+    return 0;
+}
