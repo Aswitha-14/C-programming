@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+     char a[50];
+    int b,c,d,e,f;
+    scanf("%s",a);
+    scanf("%d\n%d\n%d\n%d\n%d",&b,&c,&d,&e,&f);
+    printf("Name of the Student:%s",a);
+    printf("\nTotal marks:%d",b+c+d+e+f);
+    float final=(float)(b+c+d+e+f)/5;
+    printf("\nAverage marks:%.1f",final);
+    
+    return 0;
+}
