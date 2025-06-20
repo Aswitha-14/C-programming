@@ -1,0 +1,35 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int n,i,ec=0,oc=0;
+    scanf("%d",&n);
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(a[i]%2==0)
+        {
+            ec++;
+        }
+        else 
+        {
+            oc++;
+        }
+    }
+    if(ec==n)
+        printf("Even");
+    else if(oc==n)
+        printf("Odd");
+    else
+        printf("Mixed");
+    return 0;
+}
