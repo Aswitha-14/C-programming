@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n, i, count = 0;
+    scanf("%d", &n);
+
+    if (n < 0) {
+        printf("Invalid Input");
+        return 0; 
+    }
+
+    for (i = 1; i < n; i++) {
+        if (n % i == 0) {
+            count += i;
+        }
+    }
+
+    if (n == count) {
+        printf("The Number %.1f is a Perfect Number.", (float)n);
+    } else {
+        printf("The Number %.1f is a Not Perfect Number.", (float)n);
+    }
+
+    return 0;
+}
