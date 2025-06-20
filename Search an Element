@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n,i,fd,count=0;
+    scanf("%d",&n);
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    scanf("%d",&fd);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==fd)
+        {
+            count=1;
+            printf("%d is presented in an array.",fd);
+            break;
+}
+    }
+    if(count==0)
+    {
+        printf("%d is not presented in an array.",fd);
+}
+    
+    return 0;
+}
